@@ -14,8 +14,6 @@ if ($_SESSION['username'] == "admin") {
 <style type="text/css">
   #video{
 
-    padding: 30px;
-    margin-top: 60px;
   }
 </style>
 <head>

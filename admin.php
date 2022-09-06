@@ -21,7 +21,7 @@ if ($_SESSION['username'] != "admin") {
     <title>tAMPILAN!</title>
   </head>
   <header><h1>tampilan</h1>
- <a href="logout.php"><button class="logout">Logout</button></a>
+ <a href="logout.php"><button class="logout">Log out</button></a>
  </header>
   <body>
     <table class="table">
