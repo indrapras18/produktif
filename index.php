@@ -197,7 +197,7 @@ if ($_SESSION['username'] == "admin") {
           <div class="input-group input-group-lg">
             <p><textarea type="text" name="komentar" class="komentar"></textarea></p>
             <div class="input-group-btn">
-            	<button class="btn btn-primary" name="btn" type="submit">kirim</button>
+              <button class="btn btn-primary" name="btn" type="submit">kirim</button>
             </div>
           </div>
         </div>
