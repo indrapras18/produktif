@@ -14,6 +14,8 @@ if ($_SESSION['username'] == "admin") {
 <style type="text/css">
   #video{
 
+    padding: 30px;
+    margin-top: 60px;
   }
 </style>
 <head>
@@ -231,7 +233,7 @@ if ($_SESSION['username'] == "admin") {
 </html>
 <?php
 if (isset($_POST['btn'])){
-$sql = mysqli_query($koneksi,"INSERT INTO situbondo VALUES('','$_POST[nama]','$_POST[email]','$_POST[komentar]')");
+$sql = mysqli_query($koneksi,"INSERT INTO situbondo VALUES('','$_POST[nama]',sha1('$_POST[email]'),'$_POST[komentar]')");
 }
   ?>
 <?php 
